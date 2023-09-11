@@ -61,6 +61,7 @@ for symbol in symbols:
         limit_volume = info.volume_limit
         trade_calc_mode = info.trade_calc_mode
         underlying_lot_amount_usd = tick.bid * contract_size * usd_rate
+        underlying_lot_amount_usd = np.round(underlying_lot_amount_usd, 2)
 
         tick_data[symbol] = {
             "price": tick.ask,
