@@ -46,7 +46,7 @@ for symbol in symbols:
         spread = tick.ask - tick.bid  # This is the raw spread
         spread_in_points = spread * (10 ** info.digits)  # adjust raw spread to points
 
-        spread_in_quote = spread * info.trade_tick_value  # Use raw spread for calculations
+        spread_in_quote = spread  # Use raw spread for calculations
         spread_in_usd_per_contract = spread_in_quote * usd_rate * info.trade_contract_size
         spread_in_usd_per_contract = np.round(spread_in_usd_per_contract, 2)
 
