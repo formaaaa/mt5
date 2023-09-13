@@ -23,7 +23,7 @@ symbols = ["BTCUSD", "ETHUSD", "LTCUSD", "XRPUSD", "BCHUSD", "AAVEUSD", "ADAUSD"
            "AXSUSD", "BNBUSD", "DASHUSD", "DOGEUSD", "DOTUSD", "FILUSD", "FTMUSD", "GRTUSD", "ICPUSD", "IOTAUSD",
            "LINKUSD", "LRCUSD", "MANAUSD", "MATICUSD", "NEARUSD", "SOLUSD", "UNIUSD", "ZECUSD", "ETCUSD", "TRXUSD",
            "AUS200m", "UK100m", "FR40m", "USTECm", "US30m", "US500m", "JP225m", "DE30m", "XBRUSD",
-           "XTIUSD", "XNGUSD", "XAGUSD", "XAUUSD", "XAUEUR"]
+           "XTIUSD", "XNGUSD", "XAGUSD", "XAUUSD", "XAUEUR" ]
 
 tick_data = {}
 
