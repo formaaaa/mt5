@@ -22,7 +22,7 @@ def get_usd_rate(quote_currency):
 symbols = ["BTCUSD", "ETHUSD", "LTCUSD", "XRPUSD", "BCHUSD", "AAVEUSD", "ADAUSD", "ALGOUSD", "ATOMUSD", "AVAXUSD",
            "AXSUSD", "BNBUSD", "DASHUSD", "DOGEUSD", "DOTUSD", "FILUSD", "FTMUSD", "GRTUSD", "ICPUSD", "IOTAUSD",
            "LINKUSD", "LRCUSD", "MANAUSD", "MATICUSD", "NEARUSD", "SOLUSD", "UNIUSD", "ZECUSD", "ETCUSD", "TRXUSD",
-           "AUS200", "UK100", "FRA40", "ESP35", "EUSTX50", "NAS100", "US30", "SPX500", "JPN225", "GER40", "XBRUSD",
+           "AUS200", "UK100", "FR40", "ES35", "EU50", "US100", "US30", "US500", "JP225", "DE30", "XBRUSD",
            "XTIUSD", "XNGUSD", "XAGUSD", "XAUUSD", "XAUEUR"]
 
 tick_data = {}
